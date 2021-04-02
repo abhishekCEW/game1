@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.div1{
+    display: flex;
+    height: 10%;
+}
+.p0 , .p1 , .p2, .p3,.p4,.p5,.p6,.p7,.p8,.p9{
+    width: 10%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+.div2{
+    display: flex;
+    height: 80%;
+}
+.div2-1{
+    width: 10%;
+}
+.div2-2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div2-2-1{
+    max-height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    max-height: 90%;
+    margin-top: 40px;
+}
+.div2-2-2{
+    height: 20%;
+}
+.button1{
+    margin-top: 20px;
+    padding: 1.5em;
+    border-radius: 2em;
+    color: white;
+    background-color:brown;
+    outline: none;
+}
+.div2-3{
+    width: 10%;
+}
+.p10,.p11,.p12,.p13,.p14,.p15,.p16,.p17{
+    height: 12.5%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+.div3{
+    display: flex;
+    height: 10%;
+}
+.p18 , .p19 , .p20, .p21,.p22,.p23,.p24,.p25,.p26,.p27{
+    width: 10%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+.p28,.p29,.p30,.p31,.p32,.p33,.p34,.p35{
+    height: 12.5%;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
